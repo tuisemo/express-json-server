@@ -1,0 +1,268 @@
+{
+    "/saas/v1/admin/system/log/pageList":
+    {
+        "code": 1,
+        "ts": 1545968539,
+        "msg": "数据查询成功",
+        "data":
+        {
+            "pageNum": 1,
+            "pageSize": 10,
+            "totalNum": 2,
+            "totalPage": 1,
+            "isMore": 0,
+            "items": [
+            {
+                "id": 1,
+                "appName": null,
+                "clientIp": "192.168.1.175",
+                "tenantId": null,
+                "operatorId": 1,
+                "operatorName": "admin",
+                "traceId": null,
+                "opId": "adminLogin",
+                "opName": "登录",
+                "opLogLevel": "NORMAL",
+                "opTime": "2018-12-26 16:10:10",
+                "opContent": null,
+                "opDesc": null,
+                "opCity": null,
+                "opDevice": null
+            },
+            {
+                "id": 2,
+                "appName": null,
+                "clientIp": "192.168.1.175",
+                "tenantId": null,
+                "operatorId": 1,
+                "operatorName": "admin",
+                "traceId": null,
+                "opId": "adminLogin",
+                "opName": "登录",
+                "opLogLevel": "NORMAL",
+                "opTime": "2018-12-26 16:10:10",
+                "opContent": null,
+                "opDesc": null,
+                "opCity": null,
+                "opDevice": null
+            }]
+        }
+    },
+    "/saas/v1/admin/tenant/list":
+    {
+        "code": 1,
+        "ts": 1543231808,
+        "msg": "获取成功",
+        "data":
+        {
+            "pageNum": 1,
+            "pageSize": 20,
+            "totalNum": 100,
+            "totalPage": 10,
+            "items": [
+            {
+                "tenantId": 800001,
+                "name": "一点智慧科技有限公司",
+                "briefName": "小鹏",
+                "biz": [
+                {
+                    "bizType": 301,
+                    "bizName": "专车"
+                },
+                {
+                    "bizType": 300,
+                    "bizName": "快车"
+                }],
+                "secretNoSwitch": 1,
+                "thirdparty":
+                {
+                    "paySetting":
+                    {
+                        "balanceShow": 0,
+                        "recharge": 0,
+                        "payType": [
+                        {
+                            "payType": 3,
+                            "payName": "余额支付",
+                            "isOpen": 1
+                        },
+                        {
+                            "payType": 2,
+                            "payName": "支付宝",
+                            "isOpen": 0
+                        },
+                        {
+                            "payType": 1,
+                            "payName": "微信",
+                            "isOpen": 0
+                        }]
+                    },
+                    "invoiceSetting":
+                    {
+                        "paperInvoiceEnabled": 1,
+                        "electronicInvoiceEnabled": 1
+                    }
+                },
+                "status": 1,
+                "createTime": 1543231808,
+                "principal": "李四"
+            }]
+        }
+    },
+    "/saas/v1/admin/tenant/detail":
+    {
+        "code": 1,
+        "ts": 1543231808,
+        "msg": "获取成功",
+        "data":
+        {
+            "tenantId": 800001,
+            "name": "一点智慧科技有限公司",
+            "briefName": "小鹏",
+            "linkman": "小鹏",
+            "address": "福建省厦门市思明区",
+            "linkMobile": "13800001111",
+            "status": 1,
+            "createTime": 1543231808,
+            "principal": "李四",
+            "bizList": [
+            {
+                "bizType": "300",
+                "bizName": "快车",
+                "serviceTypes": [
+                {
+                    "serviceType": "350",
+                    "serviceName": "普通用车"
+                }],
+                "realTimeTypes": [
+                {
+                    "realTimeType": "200",
+                    "realTimeName": "实时单"
+                },
+                {
+                    "realTimeType": "201",
+                    "realTimeName": "预约单"
+                }]
+            },
+            {
+                "bizType": "301",
+                "bizName": "专车",
+                "serviceTypes": [
+                {
+                    "serviceType": "350",
+                    "serviceName": "普通用车"
+                },
+                {
+                    "serviceType": "351",
+                    "serviceName": "接机用车"
+                },
+                {
+                    "serviceType": "352",
+                    "serviceName": "送机用车"
+                }],
+                "realTimeTypes": [
+                {
+                    "realTimeType": "200",
+                    "realTimeName": "实时单"
+                },
+                {
+                    "realTimeType": "201",
+                    "realTimeName": "预约单"
+                }]
+            }],
+            "thirdparty":
+            {
+                "paySetting":
+                {
+                    "balanceShow": 0,
+                    "recharge": 0,
+                    "payType": [
+                    {
+                        "payType": 3,
+                        "payName": "余额支付",
+                        "isOpen": 1
+                    },
+                    {
+                        "payType": 2,
+                        "payName": "支付宝",
+                        "isOpen": 0
+                    },
+                    {
+                        "payType": 1,
+                        "payName": "微信",
+                        "isOpen": 0
+                    }]
+                },
+                "invoiceSetting":
+                {
+                    "paperInvoiceEnabled": 1,
+                    "electronicInvoiceEnabled": 1
+                },
+                "secretNoSwitch": 1,
+                "appMarketSetting": 1
+            },
+            "adminAccount": "badatong",
+            "adminPwd": "11111",
+            "degradeOn": 1,
+            "sysConfig":
+            {
+                "appId": "xiaopeng",
+                "domain": "api.xiaopeng.cn",
+                "etravelChannel": "",
+                "etravelSignSalt": ""
+            }
+        }
+    },
+    "/saas/v1/admin/biz/tpl":
+    {
+        "code": 1,
+        "ts": 1543231808,
+        "msg": "获取成功",
+        "data": [
+        {
+            "bizType": "300",
+            "bizName": "快车",
+            "serviceTypes": [
+            {
+                "serviceType": "350",
+                "serviceName": "普通用车"
+            }],
+            "realTimeTypes": [
+            {
+                "realTimeType": "200",
+                "realTimeName": "实时单"
+            },
+            {
+                "realTimeType": "201",
+                "realTimeName": "预约单"
+            }]
+        },
+        {
+            "bizType": "301",
+            "bizName": "专车",
+            "serviceTypes": [
+            {
+                "serviceType": "350",
+                "serviceName": "普通用车"
+            },
+            {
+                "serviceType": "351",
+                "serviceName": "接机用车"
+            },
+            {
+                "serviceType": "352",
+                "serviceName": "送机用车"
+            }],
+            "realTimeTypes": [
+            {
+                "realTimeType": "200",
+                "realTimeName": "实时单"
+            },
+            {
+                "realTimeType": "201",
+                "realTimeName": "预约单"
+            }]
+        }]
+    }
+
+}
